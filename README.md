@@ -21,5 +21,6 @@
        npm run report
  
  6. To save report to local directory:
+ 
        npm run reportgen
  
