@@ -1,0 +1,26 @@
+{
+  "name": "responsivefighte2e",
+  "version": "1.0.0",
+  "description": "This project includes the end-to-end tests for UNSW SLP Module",
+  "main": "index.js",
+  "scripts": {
+    "generate": "cd e2e && codeceptjs gherkin:snippets",
+    "gpo": "cd e2e && codeceptjs gpo",
+    "gh": "cd e2e && codeceptjs gh",
+    "test.e2e": " set NODE_ENV=test&&cd e2e && rimraf output && codeceptjs run --debug --grep @wip --invert",
+    "test.multi": "set NODE_ENV=test&&cd e2e && rimraf output && codeceptjs run-multiple --all",
+    "report": " cd e2e/ &&  allure serve output",
+    "reportgen": " cd e2e/ &&  allure generate output --clean -o allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "codeceptjs": "^3.3.0",
+    "codeceptjs-assert": "0.0.4",
+    "config": "^3.2.2",
+    "mochawesome": "^7.1.0",
+    "puppeteer": "^1.19.0",
+    "rimraf": "^3.0.0"
+  }
+}
