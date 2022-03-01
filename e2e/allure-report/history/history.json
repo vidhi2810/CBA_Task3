@@ -1,0 +1,98 @@
+{
+  "e685c4360499caf9fde02f375ea2bcb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30d29b870f80822d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126915522,
+        "stop" : 1646126930200,
+        "duration" : 14678
+      }
+    } ]
+  },
+  "4e9534349ff561f450ba9251e3c8b3bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84a3f57d9199658a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126816424,
+        "stop" : 1646126846330,
+        "duration" : 29906
+      }
+    } ]
+  },
+  "64160ae203f0c0fe74f775d77f010f89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e2f5922e19a1548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126930210,
+        "stop" : 1646126946831,
+        "duration" : 16621
+      }
+    } ]
+  },
+  "e659ae8de588e80df3d69f561796da39" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf8a3047dad69515",
+      "status" : "failed",
+      "statusDetails" : "Clickable element \"//a[contains(text(),'Cover any sneezes or coughs with your superhero inner elbow')]\" was not found by text|CSS|XPath",
+      "time" : {
+        "start" : 1646126846419,
+        "stop" : 1646126897155,
+        "duration" : 50736
+      }
+    } ]
+  },
+  "e0d725443a1e750c84bca27da82225ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ee6a5c58ef47dff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126897917,
+        "stop" : 1646126915517,
+        "duration" : 17600
+      }
+    } ]
+  }
+}

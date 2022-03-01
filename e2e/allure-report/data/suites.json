@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Create a new warrior user and test questionnaire",
+    "children" : [ {
+      "name" : "Automation Warrior User should be created successfully",
+      "uid" : "84a3f57d9199658a",
+      "parentUid" : "5164a36f3af0018e905ae421401760c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126816424,
+        "stop" : 1646126846330,
+        "duration" : 29906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a Automation Warrior User Complete news questionnaire",
+      "uid" : "cf8a3047dad69515",
+      "parentUid" : "5164a36f3af0018e905ae421401760c6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646126846419,
+        "stop" : 1646126897155,
+        "duration" : 50736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a Automation Warrior User Complete Take the bus questionnaire",
+      "uid" : "8ee6a5c58ef47dff",
+      "parentUid" : "5164a36f3af0018e905ae421401760c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126897917,
+        "stop" : 1646126915517,
+        "duration" : 17600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a Automation Warrior User Complete the restaurant questionnaire",
+      "uid" : "30d29b870f80822d",
+      "parentUid" : "5164a36f3af0018e905ae421401760c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126915522,
+        "stop" : 1646126930200,
+        "duration" : 14678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a Automation Warrior User Complete the Go to the office questionnaire",
+      "uid" : "1e2f5922e19a1548",
+      "parentUid" : "5164a36f3af0018e905ae421401760c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646126930210,
+        "stop" : 1646126946831,
+        "duration" : 16621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5164a36f3af0018e905ae421401760c6"
+  } ]
+}

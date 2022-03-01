@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Clickable element \"//a[contains(text(),'Cover any sneezes or coughs with your superhero inner elbow')]\" was not found by text|CSS|XPath",
+      "children" : [ {
+        "name" : "As a Automation Warrior User Complete news questionnaire",
+        "uid" : "cf8a3047dad69515",
+        "parentUid" : "0886ced4a174c8d96169fe64f9a0fd1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646126846419,
+          "stop" : 1646126897155,
+          "duration" : 50736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0886ced4a174c8d96169fe64f9a0fd1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

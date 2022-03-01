@@ -1,0 +1,330 @@
+{
+  "uid" : "84a3f57d9199658a",
+  "name" : "Automation Warrior User should be created successfully",
+  "fullName" : "Create a new warrior user and test questionnaire.Automation Warrior User should be created successfully",
+  "historyId" : "4e9534349ff561f450ba9251e3c8b3bf",
+  "time" : {
+    "start" : 1646126816424,
+    "stop" : 1646126846330,
+    "duration" : 29906
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Warrior as Automation user ",
+      "time" : {
+        "start" : 1646126816676,
+        "stop" : 1646126828707,
+        "duration" : 12031
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "loginPage: clickLoginButton ",
+        "time" : {
+          "start" : 1646126816678,
+          "stop" : 1646126824412,
+          "duration" : 7734
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://responsivefight.herokuapp.com/\"",
+          "time" : {
+            "start" : 1646126816680,
+            "stop" : 1646126823166,
+            "duration" : 6486
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I click {\"id\":\"login\"}",
+          "time" : {
+            "start" : 1646126823171,
+            "stop" : 1646126824409,
+            "duration" : 1238
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "loginPage: enterWarriorName ",
+        "time" : {
+          "start" : 1646126824413,
+          "stop" : 1646126828706,
+          "duration" : 4293
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://responsivefight.herokuapp.com/\"",
+          "time" : {
+            "start" : 1646126824413,
+            "stop" : 1646126827268,
+            "duration" : 2855
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I click {\"id\":\"login\"}",
+          "time" : {
+            "start" : 1646126827272,
+            "stop" : 1646126827620,
+            "duration" : 348
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I fill field {\"id\":\"worrior_username\"}, \"AutoUser\"",
+          "time" : {
+            "start" : 1646126827622,
+            "stop" : 1646126828702,
+            "duration" : 1080
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User create warrior ",
+      "time" : {
+        "start" : 1646126828707,
+        "stop" : 1646126829116,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "loginPage: clickCreateWarrior ",
+        "time" : {
+          "start" : 1646126828707,
+          "stop" : 1646126829116,
+          "duration" : 409
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I click {\"id\":\"warrior\"}",
+          "time" : {
+            "start" : 1646126828707,
+            "stop" : 1646126829111,
+            "duration" : 404
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Start journey ",
+      "time" : {
+        "start" : 1646126829116,
+        "stop" : 1646126846080,
+        "duration" : 16964
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "loginPage: clickStartYourJourney ",
+        "time" : {
+          "start" : 1646126829117,
+          "stop" : 1646126846080,
+          "duration" : 16963
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I click {\"id\":\"start\"}",
+          "time" : {
+            "start" : 1646126829117,
+            "stop" : 1646126829492,
+            "duration" : 375
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I wait for navigation ",
+          "time" : {
+            "start" : 1646126829494,
+            "stop" : 1646126846036,
+            "duration" : 16542
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then User should be created ",
+      "time" : {
+        "start" : 1646126846080,
+        "stop" : 1646126846329,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "responsivefightHome: verifyWellComeText ",
+        "time" : {
+          "start" : 1646126846081,
+          "stop" : 1646126846329,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I see element {\"id\":\"welcome_text\"}",
+          "time" : {
+            "start" : 1646126846083,
+            "stop" : 1646126846325,
+            "duration" : 242
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 18,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Create a new warrior user and test questionnaire"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a new warrior user and test questionnaire"
+  }, {
+    "name" : "testMethod",
+    "value" : "Automation Warrior User should be created successfully"
+  }, {
+    "name" : "package",
+    "value" : "Create a new warrior user and test questionnaire"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84a3f57d9199658a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1005 @@
+{
+  "uid" : "30d29b870f80822d",
+  "name" : "As a Automation Warrior User Complete the restaurant questionnaire",
+  "fullName" : "Create a new warrior user and test questionnaire.As a Automation Warrior User Complete the restaurant questionnaire",
+  "historyId" : "e685c4360499caf9fde02f375ea2bcb1",
+  "time" : {
+    "start" : 1646126915522,
+    "stop" : 1646126930200,
+    "duration" : 14678
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Create Automation Warrior ",
+      "time" : {
+        "start" : 1646126915526,
+        "stop" : 1646126920679,
+        "duration" : 5153
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "loginPage: clickLoginButton ",
+        "time" : {
+          "start" : 1646126915526,
+          "stop" : 1646126917996,
+          "duration" : 2470
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://responsivefight.herokuapp.com/\"",
+          "time" : {
+            "start" : 1646126915526,
+            "stop" : 1646126917742,
+            "duration" : 2216
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I click {\"id\":\"login\"}",
+          "time" : {
+            "start" : 1646126917743,
+            "stop" : 1646126917995,
+            "duration" : 252
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "loginPage: enterWarriorName ",
+        "time" : {
+          "start" : 1646126917996,
+          "stop" : 1646126920443,
+          "duration" : 2447
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"https://responsivefight.herokuapp.com/\"",
+          "time" : {
+            "start" : 1646126917996,
+            "stop" : 1646126919703,
+            "duration" : 1707
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I click {\"id\":\"login\"}",
+          "time" : {
+            "start" : 1646126919703,
+            "stop" : 1646126919938,
+            "duration" : 235
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I fill field {\"id\":\"worrior_username\"}, \"AutoUser\"",
+          "time" : {
+            "start" : 1646126919939,
+            "stop" : 1646126920442,
+            "duration" : 503
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "loginPage: clickCreateWarrior ",
+        "time" : {
+          "start" : 1646126920443,
+          "stop" : 1646126920679,
+          "duration" : 236
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I click {\"id\":\"warrior\"}",
+          "time" : {
+            "start" : 1646126920443,
+            "stop" : 1646126920678,
+            "duration" : 235
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Start journey ",
+      "time" : {
+        "start" : 1646126920679,
+        "stop" : 1646126922398,
+        "duration" : 1719
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "loginPage: clickStartYourJourney ",
+        "time" : {
+          "start" : 1646126920679,
+          "stop" : 1646126922398,
+          "duration" : 1719
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I click {\"id\":\"start\"}",
+          "time" : {
+            "start" : 1646126920679,
+            "stop" : 1646126920903,
+            "duration" : 224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I wait for navigation ",
+          "time" : {
+            "start" : 1646126920904,
+            "stop" : 1646126922396,
+            "duration" : 1492
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User goto restaurant questionnaire ",
+      "time" : {
+        "start" : 1646126922398,
+        "stop" : 1646126924406,
+        "duration" : 2008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "responsivefightHome: goToPublicPlace ",
+        "time" : {
+          "start" : 1646126922398,
+          "stop" : 1646126924406,
+          "duration" : 2008
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I click {\"id\":\"restaurant\"}",
+          "time" : {
+            "start" : 1646126922398,
+            "stop" : 1646126922661,
+            "duration" : 263
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I wait for navigation ",
+          "time" : {
+            "start" : 1646126922661,
+            "stop" : 1646126924396,
+            "duration" : 1735
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Confirm start from the beginning in case of wrong answer at any of restaurant questions ",
+      "time" : {
+        "start" : 1646126924406,
+        "stop" : 1646126924667,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "busPage: clickStartPopupButton ",
+        "time" : {
+          "start" : 1646126924406,
+          "stop" : 1646126924667,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I click {\"xpath\":\"//button[contains(@id,'start')]\"}",
+          "time" : {
+            "start" : 1646126924406,
+            "stop" : 1646126924645,
+            "duration" : 239
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "I wait for invisible {\"xpath\":\"//button[contains(@id,'start')]\"}",
+          "time" : {
+            "start" : 1646126924646,
+            "stop" : 1646126924667,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Provide correct answers for all take the restaurant questions ",
+      "time" : {
+        "start" : 1646126924667,
+        "stop" : 1646126930177,
+        "duration" : 5510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "busPage: selectAnswer [object Map]",
+        "time" : {
+          "start" : 1646126924667,
+          "stop" : 1646126924685,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I grab number of visible elements {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+          "time" : {
+            "start" : 1646126924667,
+            "stop" : 1646126924679,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924685,
+          "stop" : 1646126924692,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924692,
+          "stop" : 1646126924704,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924707,
+          "stop" : 1646126924719,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924719,
+          "stop" : 1646126924731,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924734,
+          "stop" : 1646126924742,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924742,
+          "stop" : 1646126924753,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924764,
+          "stop" : 1646126924780,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924780,
+          "stop" : 1646126924792,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924800,
+          "stop" : 1646126924808,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924808,
+          "stop" : 1646126924818,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924822,
+          "stop" : 1646126924828,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924829,
+          "stop" : 1646126924838,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924842,
+          "stop" : 1646126924850,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924850,
+          "stop" : 1646126924860,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924862,
+          "stop" : 1646126924870,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924871,
+          "stop" : 1646126924881,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924884,
+          "stop" : 1646126924890,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924890,
+          "stop" : 1646126924901,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924904,
+          "stop" : 1646126924912,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924913,
+          "stop" : 1646126924921,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924923,
+          "stop" : 1646126924932,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924932,
+          "stop" : 1646126924942,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I see element {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924946,
+          "stop" : 1646126924952,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab text from {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924952,
+          "stop" : 1646126924963,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab number of visible elements {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126924966,
+          "stop" : 1646126924973,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I wait 1",
+        "time" : {
+          "start" : 1646126924975,
+          "stop" : 1646126925980,
+          "duration" : 1005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I double click \"//a[contains(text(),'Use your super hero sanitizer, keep a safe distance')]\"",
+        "time" : {
+          "start" : 1646126925980,
+          "stop" : 1646126926233,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I wait for clickable {\"id\":\"leaderboard_link\"}, 5",
+        "time" : {
+          "start" : 1646126926233,
+          "stop" : 1646126926416,
+          "duration" : 183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I double click {\"id\":\"leaderboard_link\"}",
+        "time" : {
+          "start" : 1646126926417,
+          "stop" : 1646126926655,
+          "duration" : 238
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I wait for navigation ",
+        "time" : {
+          "start" : 1646126926655,
+          "stop" : 1646126929128,
+          "duration" : 2473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab number of visible elements {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126929130,
+          "stop" : 1646126929141,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I wait 1",
+        "time" : {
+          "start" : 1646126929143,
+          "stop" : 1646126930158,
+          "duration" : 1015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "I grab number of visible elements {\"xpath\":\"//p[contains(@id,'_question_')]\"}",
+        "time" : {
+          "start" : 1646126930158,
+          "stop" : 1646126930173,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 35,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then User should redirect on leaderboard page ",
+      "time" : {
+        "start" : 1646126930177,
+        "stop" : 1646126930200,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "leaderboardPage: verifycontinueFightingButton ",
+        "time" : {
+          "start" : 1646126930177,
+          "stop" : 1646126930189,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I see element {\"id\":\"leaderboard_link\"}",
+          "time" : {
+            "start" : 1646126930177,
+            "stop" : 1646126930188,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "leaderboardPage: verifyAutoUserName ",
+        "time" : {
+          "start" : 1646126930189,
+          "stop" : 1646126930200,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I see element {\"xpath\":\"//td[contains(text(),'AutoUser')]\"}",
+          "time" : {
+            "start" : 1646126930189,
+            "stop" : 1646126930200,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 63,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Create a new warrior user and test questionnaire"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a new warrior user and test questionnaire"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a Automation Warrior User Complete the restaurant questionnaire"
+  }, {
+    "name" : "package",
+    "value" : "Create a new warrior user and test questionnaire"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30d29b870f80822d.json",
+  "parameterValues" : [ ]
+}

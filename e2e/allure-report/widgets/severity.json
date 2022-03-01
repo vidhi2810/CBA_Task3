@@ -1,0 +1,51 @@
+[ {
+  "uid" : "84a3f57d9199658a",
+  "name" : "Automation Warrior User should be created successfully",
+  "time" : {
+    "start" : 1646126816424,
+    "stop" : 1646126846330,
+    "duration" : 29906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e2f5922e19a1548",
+  "name" : "As a Automation Warrior User Complete the Go to the office questionnaire",
+  "time" : {
+    "start" : 1646126930210,
+    "stop" : 1646126946831,
+    "duration" : 16621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ee6a5c58ef47dff",
+  "name" : "As a Automation Warrior User Complete Take the bus questionnaire",
+  "time" : {
+    "start" : 1646126897917,
+    "stop" : 1646126915517,
+    "duration" : 17600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30d29b870f80822d",
+  "name" : "As a Automation Warrior User Complete the restaurant questionnaire",
+  "time" : {
+    "start" : 1646126915522,
+    "stop" : 1646126930200,
+    "duration" : 14678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf8a3047dad69515",
+  "name" : "As a Automation Warrior User Complete news questionnaire",
+  "time" : {
+    "start" : 1646126846419,
+    "stop" : 1646126897155,
+    "duration" : 50736
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
