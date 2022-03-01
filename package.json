@@ -20,7 +20,9 @@
     "codeceptjs-assert": "0.0.4",
     "config": "^3.2.2",
     "mochawesome": "^7.1.0",
-    "puppeteer": "^1.19.0",
-    "rimraf": "^3.0.0"
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }

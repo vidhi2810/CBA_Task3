@@ -24,26 +24,6 @@ exports.config = {
       require: 'codeceptjs-assert'
     },
     FileSystem: {},
-    multiple: {
-      "basic": {
-        // run all tests in chrome and firefox
-        "browsers": ["chrome", "firefox"]
-      },
-
-      "smoke": {
-        "browsers": [
-          "firefox",
-          // replace any config values from WebDriver helper
-          {
-            "browser": "chrome",
-            "windowSize": "maximize",
-            "desiredCapabilities": {
-              "acceptSslCerts": true
-            }
-          },
-        ]
-      },
-    }
   },
   include: {
     loginPage: './pages/login.js',
